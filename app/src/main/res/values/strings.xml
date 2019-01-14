@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovieDBKotlin</string>
+    <string name="api_key">9986464dc7ff8e83569e65a98dc7b3b6</string>
+    <string name="image_formater">https://image.tmdb.org/t/p/w500/</string>
+</resources>

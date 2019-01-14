@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivMainSliderBanner"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="@dimen/spacing_small"
+                android:layout_marginRight="@dimen/spacing_small" />
+
+            <TextView
+                android:id="@+id/tvMainTittleSliderBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/ivMainSliderBanner"
+                android:layout_alignBottom="@id/ivMainSliderBanner"
+                android:layout_margin="@dimen/spacing_large"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/textWhite"
+                android:textSize="@dimen/letter_large"
+                tools:text="testing" />
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
